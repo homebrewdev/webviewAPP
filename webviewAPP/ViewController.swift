@@ -58,10 +58,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func goWebButtonTap(_ sender: UIButton) {
-        //let destinationURL = "http://80.211.30.177/login/logint.php"
-        //let destinationURL = "http://80.211.30.177/landing/pay-page.html"
         //let destinationURL = "https://yandex.ru"
-        makeWebMagic(destinationURL: "http://80.211.30.177/landing/pay-page.html")
+        makeWebMagic(destinationURL: "https://yandex.ru")
     }
     
     @IBAction func slideMenuTap(_ sender: UIBarButtonItem) {
